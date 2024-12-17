@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDF's Creator</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #1e90ff, #87cefa);
+      color: #333;
+    }
+
+    h1, h2, h3 {
+      margin: 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* Header */
+    header {
+      background: #ffffff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #1e90ff;
+    }
+
+    nav a {
+      margin: 0 15px;
+      font-size: 16px;
+      color: #333;
+    }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+      color: #fff;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin: 20px 0;
+    }
+
+    .hero .cta {
+      margin: 20px 0;
+    }
+
+    .cta button {
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      color: white;
+      background: #1e90ff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .cta button:hover {
+      background: #1478d0;
+    }
+
+    /* Features Section */
+    .features {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 40px 20px;
+      background: #fff;
+      border-radius: 20px 20px 0 0;
+    }
+
+    .feature-card {
+      text-align: center;
+      padding: 20px;
+      max-width: 300px;
+      margin: 20px;
+      background: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .feature-card h3 {
+      margin: 10px 0;
+      font-size: 20px;
+    }
+
+    /* Upload Section */
+    .upload-section {
+      text-align: center;
+      margin: 40px 0;
+      padding: 40px;
+      background: #ffffff;
+      border-radius: 10px;
+    }
+
+    .upload-box {
+      border: 2px dashed #1e90ff;
+      padding: 40px;
+      background: #f9f9f9;
+      border-radius: 10px;
+      margin: 20px auto;
+      max-width: 500px;
+      cursor: pointer;
+    }
+
+    .upload-box:hover {
+      background: #e0f7fa;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1e90ff;
+      color: white;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #87cefa;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">PDF's Creator</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#features">Features</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to PDF's Creator</h1>
+    <p>Convert, compress, and create PDFs effortlessly with our advanced tools.</p>
+    <div class="cta">
+      <button>Image to PDF</button>
+      <button>Compress PDF</button>
+      <button>Word to PDF</button>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <div class="feature-card">
+      <h3>📷 Image to PDF</h3>
+      <p>Convert your image files into high-quality PDF documents in just seconds.</p>
+    </div>
+    <div class="feature-card">
+      <h3>🔧 Compress PDF</h3>
+      <p>Reduce file sizes while maintaining document quality.</p>
+    </div>
+    <div class="feature-card">
+      <h3>🤖 Word to PDF</h3>
+      <p>Use AI-powered tools to convert Word files to PDFs seamlessly.</p>
+    </div>
+  </section>
+
+  <!-- Upload Section -->
+  <section class="upload-section">
+    <h2>Start Your File Conversion</h2>
+    <div class="upload-box">Drag & drop your files here or click to upload</div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 PDF's Creator. All rights reserved.</p>
+    <a href="#terms">Terms</a>
+    <a href="#privacy">Privacy Policy</a>
+  </footer>
+
+</body>
+</html>
